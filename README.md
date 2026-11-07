@@ -4,6 +4,18 @@ A Python/FastAPI application for recording expenses, setting monthly category
 budgets, and viewing spending summaries. It serves an HTML frontend and exposes
 an API backed by SQLAlchemy with SQLite or PostgreSQL.
 
+## Features
+
+- Expense creation, editing, deletion, and category/month/year filtering.
+- Monthly category budgets and spending summaries.
+- Password-based bearer-token authentication and optional email OTP flows.
+- An HTML frontend and interactive API documentation.
+
+**Stack:** Python · FastAPI · SQLAlchemy · SQLite / PostgreSQL
+
+[API task guide](docs/first-expense.md) · [Verification](docs/verification.md) ·
+[Configuration handling](SECURITY.md)
+
 ## Start locally with SQLite
 
 Requires Python and pip. The repository's `runtime.txt` specifies Python 3.11.
